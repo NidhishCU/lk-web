@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Page from './components/Page'
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-  <h1 className='bg-red-600' >Hello</h1>
+<Page/>
     </>
   )
 }
