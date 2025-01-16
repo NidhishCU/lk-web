@@ -168,7 +168,7 @@ function Page() {
             <Grid container spacing={4}>
               <Grid item xs={12} md={6}>
                 <Typography variant="body1" className="flex items-center mb-2">
-                  <FaEnvelope className="mr-2" /> contact@techsolutions.com
+                  <FaEnvelope className="mr-2" /> info@lksolution.com
                 </Typography>
                 <Typography variant="body1" className="flex items-center mb-2">
                   <FaPhone className="mr-2" /> +1 (555) 123-4567
@@ -191,7 +191,7 @@ function Page() {
       </main>
 
       <footer className="py-6 text-center">
-        <Typography variant="body2">© 2024 TechSolutions. All rights reserved.</Typography>
+        <Typography variant="body2">© 2025 LkSolution. All rights reserved.</Typography>
         <Button color="inherit">Terms of Service</Button>
         <Button color="inherit">Privacy</Button>
       </footer>
