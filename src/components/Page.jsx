@@ -20,6 +20,9 @@ import {
   FaGlobe 
 } from 'react-icons/fa';
 
+import lk from '../assets/lk.png'
+import HeroCarousel from './HeroCarousel';
+
 const features = [
   {
     title: "Cloud Solutions",
@@ -63,7 +66,7 @@ function Page() {
       <AppBar position="static" color="transparent">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-            <FaCode className="mr-2" /> TechSolutions
+            <FaCode className="mr-2" /> LkSolution
           </Typography>
           <Button color="inherit" href="#features">Features</Button>
           <Button color="inherit" href="#services">Services</Button>
@@ -71,6 +74,7 @@ function Page() {
           <Button color="inherit" href="#contact">Contact</Button>
         </Toolbar>
       </AppBar>
+      <HeroCarousel/>
 
       <main>
         <section className="py-20">
@@ -140,7 +144,7 @@ function Page() {
           <Container>
             <Grid container spacing={4} alignItems="center">
               <Grid item xs={12} md={6}>
-                <img src="https://via.placeholder.com/600x400" alt="About Us" className="w-full rounded-lg" />
+                <img src={lk} alt="About Us" className="w-full rounded-lg" />
               </Grid>
               <Grid item xs={12} md={6}>
                 <Typography variant="h3" gutterBottom>About Us</Typography>
